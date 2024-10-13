@@ -1,0 +1,127 @@
+:root {
+    /* Variable declarations */
+    --iko-lightest-purple: #F1F2FE;
+    --iko-light-purple: #939AF7;
+    --iko-purple: #636CF7;
+    --iko-light-green: #21d789;
+    --iko-medium-green: #1ec67e;
+    --iko-dark-green: #14915b;
+
+    --iko-purple-gradient: linear-gradient(45deg, var(--iko-light-purple), var(--iko-purple));
+    --iko-green-gradient: linear-gradient(45deg, #21d789, #3592c4);
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.btn-green {
+    background-color: var(--iko-medium-green);
+    border-color: var(--iko-medium-green);
+    color: white;
+}
+
+.btn-green:hover,
+.btn-green:active {
+    background-color: var(--iko-dark-green);
+    border-color: var(--iko-dark-green);
+    color: white;
+}
+
+.card {
+    background-color: white;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    font-size: 2.5em;
+    color: var(--iko-medium-green);
+}
+
+.logo-placeholder {
+    max-width: 100px;
+}
+
+.header-bg {
+    background: var(--iko-purple-gradient);
+    position: relative;
+    overflow: hidden;
+}
+
+.header-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -33%;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.4" d="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,213.3C672,192,768,128,864,128C960,128,1056,192,1152,213.3C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') no-repeat bottom;
+    background-size: cover;
+}
+
+.text-gradient {
+    background: var(--iko-green-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-light-custom {
+    background-color: var(--iko-lightest-purple);
+}
+
+.navbar-brand img {
+    height: 45px;
+}
+
+.nav-link {
+    color: #333 !important;
+    color: white;
+    font-weight: 500;
+}
+
+.animated-gradient {
+    background: linear-gradient(45deg, #BDF6D6, #F6BDDD, #F6F3BD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: my-gradient-animation 2s ease-in-out infinite alternate;
+}
+
+@keyframes my-gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.nav-item {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.carousel-caption {
+    position: static;
+    padding-top: 0.8rem;
+    padding-bottom: 2.5rem;
+}
+
+section:before {
+    display: block;
+    height: 71px;
+    margin-top: -71px;
+    /*padding: 50px;*/
+    visibility: hidden;
+    content: "";
+}
+
+section > div {
+    padding: 30px;
+}

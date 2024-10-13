@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ikoOSKAR - iko Ortak Sınav Karma Sistemi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/assets/logo-rounded-whitebg.svg" sizes="any" type="image/svg+xml">
+    <link rel="icon" type="image/png" href="/assets/logo-rounded-whitebg-128.png">
+</head>
+
+<body>
+    <span id="ana-sayfa"></span>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#ana-sayfa">
+                <img src="/assets/banner.svg" alt="ikoOSKAR Logo" style="padding: 5px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ozellikler">Özellikler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ekran-goruntuleri">Ekran Görüntüleri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#iletisim">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-green rounded-pill px-3 shadow-lg" href="#indirmeler">İndirmeler</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header-bg text-white py-5">
+        <div class="container position-relative">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1 class="display-4 fw-bold animated-gradient">
+                        ikoOSKAR v4.1
+                    </h1>
+                    <h2 class="h3 fw-bold">Liseler İçin Ortak Sınav Öğrenci Karma Programı</h2>
+                    <h6 class="h6 mt-4" style="font-size: 1.1rem;">
+                        Ortaöğretimde sınıf geçme sistemine uygun olarak öğrenci sınav düzenleri oluşturun.
+                    </h6>
+                    <div class="d-flex align-items-center">
+                        <a href="#indirmeler" class="btn btn-green btn-lg mt-3 rounded-pill px-4 shadow-lg">İndir</a>
+                        <div class="pt-3 mx-3">Ücretsiz deneme sürümü</div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-none d-md-block d-lg-block d-xl-block">
+                    <img src="/assets/logo-rounded-whitebg.svg" alt="ikoOSKAR" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="mx-3" id="ozellikler">
+        <div>
+            <h2 class="text-center mb-4 text-gradient">ikoOSKAR ile neler yapabilirsiniz?</h2>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <i class="fas fa-users-cog feature-icon mb-3"></i>
+                        <h5>Optimize Sınav Düzenleri</h5>
+                        <p>Aynı sınıf düzeyindeki öğrencileri mümkün olan en uzak yerlere oturtun.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <i class="fas fa-clipboard-list feature-icon mb-3"></i>
+                        <h5>Oturma Planları</h5>
+                        <p>Her derslik ve sınav salonu için detaylı oturma planları oluşturun.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <i class="fas fa-shield-alt feature-icon mb-3"></i>
+                        <h5>Kopya Önleme</h5>
+                        <p>Öğrencilerin sınavlarda kopya çekmesini engelleyin.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="bg-light-custom">
+            <h2 class="text-center text-gradient">Gelişmiş Özellikler</h2>
+            <div class="container" style="padding-top: 24px;">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="text-gradient">e-Okul Entegrasyonu</h3>
+                                <p>
+                                    Öğrenci verilerini kolaylıkla düzenleyin. e-Okul'dan indirdiğiniz Excel dosyalarını
+                                    yükleyerek yüzlerce öğrenci bilgisini tek seferde ekleyin.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="text-gradient">Linux Uyumluluğu</h3>
+                                <p>
+                                    ikoOSKAR, hem Windows'ta hem de Linux'ta çalışabilen ilk ve tek kelebek karma
+                                    programıdır. Yerli işletim sistemimiz Pardus ile &percnt;100 uyumludur.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="text-gradient">Açık Kaynak Kodlu</h3>
+                                <p>
+                                    ikoOSKAR, <a
+                                        href="https://cbddo.gov.tr/haberler/6777/kamuda-acik-kaynak-kodlu-yazilimi-kullanimi-genelgesi-resmi-gazete-de-yayimlandi">
+                                        Kamuda Açık Kaynak Kodlu Yazılım (AKKY) Kullanımı konulu Cumhurbaşkanlığı
+                                        Genelgesi</a>&apos;ne uygun olan tek kelebek karma programıdır. GNU AGPLv3
+                                    lisans şartları geçerlidir.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="text-gradient">Yıl Sonu İşlemleri</h3>
+                                <p>
+                                    Her eğitim öğretim yılı başlangıcında öğrencilerin sınıf bilgilerini elle
+                                    güncellemenize
+                                    gerek yok. "Yıl Sonu İşlemleri" özelliği ile bütün öğrencilerin sınıf bilgilerini
+                                    tek
+                                    tıkla güncelleyin.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="text-gradient">Üstün Performans</h3>
+                                <p>
+                                    Yüzlerce öğrencinin, onlarca dersliğin yer aldığı sınav karma düzenlerini
+                                    sadece 1 saniyede oluşturun.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="text-gradient">Detaylı Oturma Planları</h3>
+                                <p>
+                                    Her derslik için oluşturulan detaylı oturma planlarını aynı zamanda imza listesi
+                                    olarak
+                                    da kullanabilirsiniz.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="text-gradient">Oturma Yeri Listeleri</h3>
+                                <p>
+                                    Her sınavdan önce öğrencilerin oturma yerlerini görebileceği listeler oluşturun.
+                                    Listeler şube bazında oluşturulur.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="text-gradient">Geçmiş Sınav Düzenleri</h3>
+                                <p>
+                                    Daha önce oluşturduğunuz sınav düzenlerine, aylara göre gruplanmış olarak kolayca
+                                    erişin.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="" id="ekran-goruntuleri">
+        <div>
+            <h2 class="text-center mb-4 text-gradient">Ekran Görüntüleri</h2>
+            <div class="container">
+                <div class="row">
+                    <div id="carousel-screenshots" class="carousel slide" data-bs-theme="dark">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-screenshots" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Ana Sayfa"></button>
+                            <button type="button" data-bs-target="#carousel-screenshots" data-bs-slide-to="1"
+                                aria-label="Öğrenci İşlemleri Sayfası"></button>
+                            <button type="button" data-bs-target="#carousel-screenshots" data-bs-slide-to="2"
+                                aria-label="Sınav Düzenleri Sayfası"></button>
+                            <button type="button" data-bs-target="#carousel-screenshots" data-bs-slide-to="3"
+                                aria-label="Yardım ve İletişim Sayfası"></button>
+                        </div>
+                        <div class="carousel-inner" style="width: 80%; margin-left: 10%; margin-right: 10%;">
+                            <div class="carousel-item active">
+                                <img src="https://ikooskar.com.tr/screenshots/ss1.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Ana Sayfa</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://ikooskar.com.tr/screenshots/ss2.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Öğrenci İşlemleri Sayfası</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://ikooskar.com.tr/screenshots/ss3.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Sınav Düzenleri Sayfası</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://ikooskar.com.tr/screenshots/ss4.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Yardım ve İletişim Sayfası</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-screenshots"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-screenshots"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="iletisim">
+        <div class="bg-light-custom">
+            <h2 class="text-center mb-4 text-gradient">İletişim</h2>
+            <div class="container text-center">
+                <h5>
+                    Öneri, yardım talebi ve lisans anahtarı satın alımı için aşağıdaki yöntemlerle bana ulaşabilirsiniz.
+                </h5>
+                <div class="container" style="padding-top: 24px;">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <i class="fas fa-brands fa-linkedin feature-icon mb-3"></i>
+                                    <h5>LinkedIn</h5>
+                                    <p><a href="https://www.linkedin.com/in/ikolomiko/" target="_blank">LinkedIn
+                                            Profilim</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <i class="fas fa-envelope feature-icon mb-3"></i>
+                                    <h5>E-Posta</h5>
+                                    <p><a href="mailto:iletisim@ikooskar.com.tr"
+                                            target="_blank">iletisim@ikooskar.com.tr</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="indirmeler">
+        <div>
+            <div class="container">
+                <h2 class="text-center mb-4 text-gradient">İndirmeler</h2>
+                <div class="row">
+                    <div class="col-lg-6 mb-4 text-center">
+                        <div class="card h-100" id="windows-download">
+                            <div class="card-body d-flex flex-column justify-content-center">
+                                <i class="fa-brands fa-windows feature-icon mb-3"></i>
+                                <h4>Windows (64-bit)</h4>
+                                <p class="text-black-50">
+                                    Windows 7 ve daha yeni versiyonlar desteklenir.<br>
+                                    32-bit sistemler desteklenmez.<br>
+                                    Otomatik güncellemeler yoktur.
+                                </p>
+                                <a href="https://github.com/ikolomiko/ikooskar-qt/releases/download/v4.1.0/ikoOSKAR.v4.Yukleyici.exe"
+                                    class="btn btn-green rounded-pill btn-lg mt-3 d-inline-static" download>
+                                    <i class="fa-solid fa-download"></i> &nbsp; Windows için ikoOSKAR v4.1
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4 text-center">
+                        <div class="card h-100" id="linux-download">
+                            <div class="card-body">
+                                <i class="fa-brands fa-linux feature-icon mb-3"></i>
+                                <h4>Linux (64-bit Flatpak)</h4>
+                                <p class="text-black-50">
+                                    Flatpak kurulabilen bütün Linux dağıtımları desteklenir.<br>
+                                    32-bit sistemler desteklenmez.<br>
+                                    Güncellemeler otomatik yapılır.
+                                </p>
+                                <p class="text-start">
+                                    Sisteminizde Flatpak kuruluysa ikoOSKAR'ı doğrudan uygulama mağazanızdan
+                                    veya Flathub'dan indirebilirsiniz:
+                                </p>
+                                <a href='https://flathub.org/tr/apps/tr.com.ikooskar.ikoOSKAR'>
+                                    <img width='200' alt="Flathub'dan indir" src='img/badge.svg' />
+                                </a>
+                                <hr>
+                                <p class="text-start mt-4">
+                                    Eğer Pardus, Ubuntu ya da Debian kullanıyorsanız aşağıdaki komutla ikoOSKAR'ı
+                                    bilgisayarınıza kurabilirsiniz:</p>
+                                <div class="card-body bg-dark text-white text-start rounded">
+                                    <pre
+                                        style="margin-bottom: 0;"><code>curl https://ikooskar.com.tr/indir.sh | bash</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-5 px-4 text-center">
+        ikoOSKAR &copy; 2024 &nbsp; - &nbsp;
+        <i class="fa-brands fa-github mx-1"></i>
+        <a href="https://github.com/ikolomiko/ikooskar-qt" class="text-decoration-none text-gradient">
+            ikoOSKAR kaynak kodları
+        </a> &nbsp; - &nbsp;
+        <i class="fa-brands fa-github mx-1"></i>
+        <a href="https://github.com/ikolomiko/ikooskar.com.tr" class="text-decoration-none text-gradient">
+            Bu sitenin kaynak kodları
+        </a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const userAgent = navigator.userAgent.toLowerCase();
+            const isWindows = userAgent.indexOf("win") > -1;
+            const isLinux = userAgent.indexOf("linux") > -1;
+
+            const windowsCard = document.getElementById('windows-download');
+            const linuxCard = document.getElementById('linux-download');
+
+            if (isWindows) {
+                windowsCard.classList.add('border-primary', 'shadow');
+                linuxCard.classList.add('opacity-75');
+            } else if (isLinux) {
+                linuxCard.classList.add('border-primary', 'shadow');
+                windowsCard.classList.add('opacity-75');
+            }
+
+        });
+    </script>
+</body>
+
+</html>
